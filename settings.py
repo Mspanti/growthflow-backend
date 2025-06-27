@@ -126,6 +126,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", # Your frontend's development URL
     "http://127.0.0.1:5173", # Sometimes also needed
+     "https://growthflow-frontend.onrender.com",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
