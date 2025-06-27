@@ -15,7 +15,7 @@ import os
 from datetime import timedelta 
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 
 print(f"DEBUG: Current working directory: {os.getcwd()}")
