@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'growthflow_backend.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
