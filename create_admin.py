@@ -8,8 +8,8 @@ django.setup()
 
 User = get_user_model()
 username = os.environ.get('DJANGO_SUPERUSER_USERNAME', 'admin') # Get from env var or default
-email = os.environ.get('DJANGO_SUPERUSER_EMAIL', 'admin@example.com')
-password = os.environ.get('DJANGO_SUPERUSER_PASSWORD', 'your_secure_password')
+email = os.environ.get('DJANGO_SUPERUSER_EMAIL', '')
+password = os.environ.get('DJANGO_SUPERUSER_PASSWORD', 'testuser123')
 
 if not User.objects.filter(username=username).exists():
     print(f"Creating superuser: {username}")
