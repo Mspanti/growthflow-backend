@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'growthflow_backend.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
